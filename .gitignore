@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+.env.local
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -38,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# clerk configuration (can include secrets)
+/.clerk/
